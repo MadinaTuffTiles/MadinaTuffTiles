@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madina Tuff Tiles - Premium Construction Materials</title>
+    <meta name="description" content="Madina Tuff Tiles offers premium construction materials including Tuff Tiles, Pavers, Front Elevation, Kerb Stones Bricks, Khaprail, Chakwal Stone, Facing Gutka, Concrete Jali, Garden Ideas, and many more.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #e67e22;
+            --accent: #16a085;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --gray: #7f8c8d;
+            --success: #27ae60;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        
+        h1, h2, h3, h4, h5 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--dark);
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: var(--primary);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow);
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo h1 {
+            color: white;
+            font-size: 1.8rem;
+            margin-left: 10px;
+        }
+        
+        .logo-icon {
+            color: var(--secondary);
+            font-size: 2rem;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 25px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: var(--transition);
+        }
+        
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        nav ul li a.active {
+            background-color: var(--secondary);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;001234567
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(45, 78, 110, 0.8)), url('https://i.postimg.cc/VLDz92H0/Chat-GPT-Image-May-29-2025-01-30-36-AM.png');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h2 {
+            font-size: 3.5rem;
+            color: white;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            border: 2px solid var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1rem;001234567
+        }
+        
+        .btn:hover {
+            background-color: transparent;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            margin-left: 15px;
+        }
+        
+        .btn-outline:hover {
+            background-color: var(--secondary);
+        }
+        
+        /* Categories Section */
+        .section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 15px;
+        }
+        
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background-color: var(--secondary);
+        }
+        
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .category-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .category-img {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .category-content {
+            padding: 20px;
+        }
+        
+        .category-content h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+        
+        /* Products Section */
+        .products-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .product-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .top-selling-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: var(--secondary);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            z-index: 2;
+        }
+        
+        .product-img {
+            height: 220px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .product-info {
+            padding: 20px;
+        }
+        
+        .product-info h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        
+        .product-category {
+            color: var(--accent);
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        
+        .product-dimensions {
+            color: var(--gray);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .product-prices {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .old-price {
+            text-decoration: line-through;
+            color: var(--gray);
+            margin-right: 15px;
+        }
+        
+        .new-price {
+            font-weight: bold;
+            color: var(--accent);
+            font-size: 1.2rem;
+        }
+        
+        .whatsapp-btn {
+            display: block;
+            width: 100%;
+            background-color: #25D366;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+        }
+        
+        .whatsapp-btn i {
+            margin-right: 8px;
+        }
+        
+        /* Contact Section */
+        .contact {
+            background-color: var(--light);
+        }
+        
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .contact-icon {
+            background-color: var(--secondary);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .contact-details h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        
+        
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: var(--primary);
+            color: white;
+            transition: var(--transition);
+        }
+        
+        .social-link:hover {
+            transform: translateY(-3px);
+            background-color: var(--secondary);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 50px 0 20px;
+        }
+        
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-logo h2 {
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .footer-links h3, .footer-newsletter h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+        
+        .footer-links ul {
+            list-style: none;
+        }
+        
+        .footer-links ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links ul li a {
+            color: #bdc3c7;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .footer-links ul li a:hover {
+            color: var(--secondary);
+        }
+        
+        .footer-newsletter form {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .footer-newsletter input {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+        }
+        
+        .footer-newsletter button {
+            background-color: var(--secondary);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 0 20px;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .footer-newsletter button:hover {
+            background-color: #d35400;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #bdc3c7;
+            font-size: 0.9rem;
+        }
+        
+        /* Admin Panel */
+        .admin-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .admin-panel {
+            background-color: #f5f7fa;
+            border-radius: 10px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            width: 90%;
+            max-width: 800px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        
+        .admin-header {
+            background-color: var(--primary);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .admin-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        .admin-content {
+            padding: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+        
+        .form-row {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .form-row .form-group {
+            flex: 1;
+        }
+        
+        .admin-btn {
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 4px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            margin-right: 10px;
+        }
+        
+        .admin-btn:hover {
+            background-color: #138a72;
+        }
+        
+        .btn-secondary {
+            background-color: var(--gray);
+        }
+        
+        .btn-secondary:hover {
+            background-color: #6c7a89;
+        }
+        
+        .login-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        .admin-products {
+            margin-top: 30px;
+        }
+        
+        .admin-products h3 {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--secondary);
+        }
+        
+        .product-list {
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        
+        .product-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .product-item:last-child {
+            border-bottom: none;
+        }
+        
+        .product-item-info h4 {
+            margin-bottom: 5px;
+        }
+        
+        .product-item-info p {
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+        
+        .product-item-actions button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            margin-left: 10px;
+            font-size: 1.1rem;
+            color: var(--primary);
+            transition: var(--transition);
+        }
+        
+        .product-item-actions button:hover {
+            color: var(--secondary);
+        }
+        
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 3000;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            width: 90%;
+            max-width: 500px;
+        }
+        
+        .modal-header {
+            display: flex;001234567
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--gray);
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .hero h2 {
+                font-size: 2.8rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                width: 100%;
+                background-color: var(--primary);
+                flex-direction: column;
+                padding: 20px 0;
+            }
+            
+            nav ul.show {
+                display: flex;
+            }
+            
+            nav ul li {
+                margin: 10px 20px;
+            }
+            
+            .hero h2 {
+                font-size: 2.3rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .btn {
+                display: block;
+                margin: 10px auto;
+                width: 80%;
+            }
+            
+            .btn-outline {
+                margin-left: 0;
+            }
+            
+            .form-row {
+                flex-direction: column;
+                gap: 0;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .section {
+                padding: 50px 0;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .hero {
+                height: 70vh;
+            }
+            
+            .hero h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+
+    <header>
+    <div class="container header-container">
+        <div class="logo">
+            <!-- Add your logo here -->
+            <img src="https://i.postimg.cc/VLDz92H0/Chat-GPT-Image-May-29-2025-01-30-36-AM.png" 
+                 alt="Madina Tuff Tiles Logo" 
+                 class="logo-icon">
+            <h1>Madina Tuff Tiles</h1>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+            <ul id="navMenu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" id="adminLink">Admin</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<style>
+    /* Add this CSS to style your logo */
+    .logo-icon {
+        width: 50px; /* Adjust width as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 15px; /* Space between logo and text */
+        object-fit: contain; /* Ensure entire logo is visible */
+        border-radius: 5px; /* Optional: if you want rounded corners */
+    }
+    
+    /* For responsive design */
+    @media (max-width: 768px) {
+        .logo-icon {
+            width: 40px; /* Smaller on mobile */
+        }
+    }
+</style>
+
+<style>
+    /* Add this CSS to style your custom logo */
+    .custom-logo {
+        height: 60px; /* Adjust as needed */
+        width: auto; /* Maintain aspect ratio */
+        max-width: 250px; /* Prevent logo from being too wide */
+        object-fit: contain; /* Ensure entire logo is visible */
+    }
+    
+    /* For responsive design */
+    @media (max-width: 768px) {
+        .custom-logo {
+            height: 45px; /* Smaller on mobile */
+        }
+    }
+    
+    /* Adjust header spacing if needed */
+    .header-container {
+        align-items: center;
+    }
+</style>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>Premium Construction Materials</h2>
+            <p>Madina Tuff Tiles offers the highest quality construction materials including Tuff Tiles, Pavers, Front Elevation, Kerb Stones, Bricks, Khaprail, Chakwal Stone, Facing Gutka, Concrete Jali, Garden Ideas, and many more. Serving customers with excellence since 2007.</p>
+            <div>
+                <a href="#products" class="btn">Explore Products</a>
+                <a href="#contact" class="btn btn-outline">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section" id="categories">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Product Categories</h2>
+                <p>Browse our wide range of construction materials</p>
+            </div>
+            <div class="categories">
+                <div class="category-card" data-category="Tuff Tiles">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Tuff Tiles</h3>
+                        <p>Durable and stylish tiles for all construction needs</p>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Pavers">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Pavers</h3>
+                        <p>High-quality paving solutions for driveways and walkways</p>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Front Elevation">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Front Elevation</h3>
+                        <p>Beautiful and durable front elevations for architectural beauty</p>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Kerb Stones">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Kerb Stones</h3>
+                        <p>Sturdy and durable stones for driveways and walkways</p>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Bricks">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Bricks</h3>
+                        <p>Strong and reliable bricks for building foundations</p>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Khaprail">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Khaprail</h3>
+                        <p>Traditional roofing tiles for authentic architectural style</p>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Chakwal Stone">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Chakwal Stone</h3>
+                        <p>Premium natural stone for elegant construction</p>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Facing Gutka">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Facing Gutka</h3>
+                        <p>Decorative facing materials for beautiful exteriors</p>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Concrete Jali">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Concrete Jali</h3>
+                        <p>Ornamental concrete screens for architectural beauty</p>
+                    </div>
+                </div>
+                <div class="category-card" data-category="Garden Ideas">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Garden Ideas</h3>
+                        <p>Creative solutions for beautiful outdoor spaces</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Products</h2>
+                <p>Explore our range of premium construction materials</p>
+            </div>
+            <div class="products-container" id="productsContainer">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our team for inquiries and orders</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Our Location</h3>
+                            <p>Madina Tuff Tiles, Main GT Road, Sowan Jor, Near Amazon Mall DHA Phase 2, Islamabad, Pakistan</p>
+                            <a href="https://maps.app.goo.gl/tHQ3Ce3FuE1TwZCY8" class="location-link" target="_blank">Open in Google Maps</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone Numbers</h3>
+                            <p>Mr. Fawad, Sales Manager: +92 315 5335453</p>
+                            <p>Mr. Saad, Sales Man: +92 318 5106021</p>
+                            <p>Mr. Hammad, Sales Man: +92 314 2400830</p>
+                            <p>Mr. Arif, CEO: +92 333 5626905</p>
+
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email Address</h3>
+                            <p>madinatufftiles@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Follow Us</h3>
+                            <p>Connect with us on social media</p>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/share/19FuYBRDiY/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/tiles5340/" class="social-link"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/madina-tuff-tiles/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.tiktok.com/@madinatufftile?is_from_webapp=1&sender_device=pc" class="social-link"><i class="fab fa-tiktok"></i></a>
+                                <a href="https://youtube.com/@madinatufftile?si=aI8DS8NeQxt_kzJY" class="social-link"><i class="fab fa-youtube"></i></a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <h2>Madina Tuff Tiles</h2>
+                    <p>Providing premium construction materials since 2007. Quality products for all your building needs.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Product Categories</h3>
+                    <ul>
+                        <li><a href="#">Tuff Tiles</a></li>
+                        <li><a href="#">Pavers</a></li>
+                        <li><a href="#">Bricks</a></li>
+                        <li><a href="#">Khaprail</a></li>
+                        <li><a href="#">Chakwal Stone</a></li>
+                        <li><a href="#">Front Elevation</a></li>
+                        <li><a href="#">Kerb Stones</a></li>
+                        <li><a href="#">Facing Gutka</a></li>
+                        <li><a href="#">Concrete Jali</a></li>
+                        <li><a href="#">Garden Ideas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get special offers and updates</p>
+                    <form>
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Madina Tuff Tiles. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Admin Overlay -->
+    <div class="admin-overlay" id="adminOverlay">
+        <div class="admin-panel">
+            <div class="admin-header">
+                <h2>Madina Tuff Tiles - Admin Panel</h2>
+                <button class="admin-close" id="adminClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="admin-content">
+                <div id="loginSection">
+                    <h3>Admin Login</h3>
+                    <div class="form-group">
+                        <label for="adminPassword">Password</label>
+                        <input type="password" id="adminPassword" placeholder="Enter admin password">
+                    </div>
+                    <button class="admin-btn" id="loginBtn">Login</button>
+                </div>
+                
+                <div id="adminSection" style="display: none;">
+                    <h3>Add New Product</h3>
+                    <form id="productForm">
+                        <div class="form-group">
+                            <label for="category">Category</label>
+                            <select id="category" required>
+                                <option value="">Select Category</option>
+                                <option value="Tuff Tiles">Tuff Tiles</option>
+                                <option value="Pavers">Pavers</option>
+                                <option value="Kerb Stones">Kerb Stones</option>
+                                <option value="Front Elevation">Front Elevation</option>
+                                <option value="Bricks">Bricks</option>
+                                <option value="Khaprail">Khaprail</option>
+                                <option value="Chakwal Stone">Chakwal Stone</option>
+                                <option value="Facing Gutka">Facing Gutka</option>
+                                <option value="Concrete Jali">Concrete Jali</option>
+                                <option value="Garden Ideas">Garden Ideas</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="productName">Product Name</label>
+                            <input type="text" id="productName" required placeholder="Enter product name">
+                        </div>
+                        <div class="form-group">
+                            <label for="dimensions">Dimensions</label>
+                            <input type="text" id="dimensions" required placeholder="Enter product dimensions">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="oldPrice">Old Price (Rs)</label>
+                                <input type="number" id="oldPrice" required placeholder="Enter original price">
+                            </div>
+                            <div class="form-group">
+                                <label for="newPrice">New Price (Rs)</label>
+                                <input type="number" id="newPrice" required placeholder="Enter discounted price">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="image">Image URL</label>
+                            <input type="text" id="image" required placeholder="Enter image URL">
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" id="isTopSelling"> Mark as Top Selling
+                            </label>
+                        </div>
+                        <button type="submit" class="admin-btn">Add Product</button>
+                    </form>
+                    
+                    <div class="admin-products">
+                        <h3>Manage Products</h3>
+                        <div class="product-list" id="adminProductList">
+                            <!-- Products will be listed here -->
+                        </div>
+                    </div>
+                    
+                    <div class="form-group" style="margin-top: 30px;">
+                        <button class="admin-btn btn-secondary" id="logoutBtn">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Product Modal -->
+    <div class="modal" id="editModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Edit Product</h3>
+                <button class="modal-close" id="editModalClose">&times;</button>
+            </div>
+            <form id="editProductForm">
+                <input type="hidden" id="editProductId">
+                <div class="form-group">
+                    <label for="editCategory">Category</label>
+                    <select id="editCategory" required>
+                        <option value="">Select Category</option>
+                        <option value="Tuff Tiles">Tuff Tiles</option>
+                        <option value="Pavers">Pavers</option>
+                        <option value="Kerb Stones">Kerb Stones</option>
+                        <option value="Front Elevation">Front Elevation</option>
+                        <option value="Bricks">Bricks</option>
+                        <option value="Khaprail">Khaprail</option>
+                        <option value="Chakwal Stone">Chakwal Stone</option>
+                        <option value="Facing Gutka">Facing Gutka</option>
+                        <option value="Concrete Jali">Concrete Jali</option>
+                        <option value="Garden Ideas">Garden Ideas</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="editProductName">Product Name</label>
+                    <input type="text" id="editProductName" required placeholder="Enter product name">
+                </div>
+                <div class="form-group">
+                    <label for="editDimensions">Dimensions</label>
+                    <input type="text" id="editDimensions" required placeholder="Enter product dimensions">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="editOldPrice">Old Price (Rs)</label>
+                        <input type="number" id="editOldPrice" required placeholder="Enter original price">
+                    </div>
+                    <div class="form-group">
+                        <label for="editNewPrice">New Price (Rs)</label>
+                        <input type="number" id="editNewPrice" required placeholder="Enter discounted price">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="editImage">Image URL</label>
+                    <input type="text" id="editImage" required placeholder="Enter image URL">
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="editIsTopSelling"> Mark as Top Selling
+                    </label>
+                </div>
+                <button type="submit" class="admin-btn">Update Product</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Sample product data (will be replaced by admin)
+        let products = [
+            {
+                id: 1,
+                category: "Tuff Tiles",
+                name: "Classic Tuff Tile",
+                dimensions: "12x12 inches",
+                oldPrice: 1200,
+                newPrice: 999,
+                image: "https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                topSelling: true
+            },
+            {
+                id: 2,
+                category: "Pavers",
+                name: "Premium Paver",
+                dimensions: "8x4 inches",
+                oldPrice: 850,
+                newPrice: 699,
+                image: "https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                topSelling: true
+            },
+            {
+                id: 2,
+                category: "Front Elevation",
+                name: "Front Elevation",
+                dimensions: "8x4 inches",
+                oldPrice: 850,
+                newPrice: 699,
+                image: "https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                topSelling: true
+            },
+            {
+                id: 2,
+                category: "Kerb Stones",
+                name: "Kerb Stones",
+                dimensions: "8x4 inches",
+                oldPrice: 850,
+                newPrice: 699,
+                image: "https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                topSelling: true
+            },
+    
+            {
+                id: 3,
+                category: "Bricks",
+                name: "Red Clay Brick",
+                dimensions: "9x4.5x3 inches",
+                oldPrice: 35,
+                newPrice: 29,
+                image: "https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                topSelling: false
+            },
+            {
+                id: 4,
+                category: "Chakwal Stone",
+                name: "Chakwal Stone Tile",
+                dimensions: "24x24 inches",
+                oldPrice: 2500,
+                newPrice: 2199,
+                image: "https://images.unsplash.com/photo-1593692909680-1e0b25e5e1a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+                topSelling: true
+            }
+        ];
+        
+        // DOM Elements
+        const productsContainer = document.getElementById('productsContainer');
+        const adminOverlay = document.getElementById('adminOverlay');
+        const adminLink = document.getElementById('adminLink');
+        const adminClose = document.getElementById('adminClose');
+        const adminPassword = document.getElementById('adminPassword');
+        const loginBtn = document.getElementById('loginBtn');
+        const loginSection = document.getElementById('loginSection');
+        const adminSection = document.getElementById('adminSection');
+        const logoutBtn = document.getElementById('logoutBtn');
+        const productForm = document.getElementById('productForm');
+        const adminProductList = document.getElementById('adminProductList');
+        const editModal = document.getElementById('editModal');
+        const editModalClose = document.getElementById('editModalClose');
+        const editProductForm = document.getElementById('editProductForm');
+        const categoryCards = document.querySelectorAll('.category-card');
+        
+        // Admin Password (in a real app, this should be stored securely)
+        const ADMIN_PASSWORD = "fawadKHAN@123@";
+        
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            renderProducts();
+            attachEventListeners();
+        });
+        
+        // Render products to the page
+        function renderProducts() {
+            productsContainer.innerHTML = '';
+            
+            products.forEach(product => {
+                const productCard = document.createElement('div');
+                productCard.className = 'product-card';
+                productCard.innerHTML = `
+                    ${product.topSelling ? '<div class="top-selling-badge">TOP SELLING</div>' : ''}
+                    <div class="product-img" style="background-image: url('${product.image}')"></div>
+                    <div class="product-info">
+                        <div class="product-category">${product.category}</div>
+                        <h3>${product.name}</h3>
+                        <div class="product-dimensions">${product.dimensions}</div>
+                        <div class="product-prices">
+                            <div class="old-price">Rs ${product.oldPrice}</div>
+                            <div class="new-price">Rs ${product.newPrice}</div>
+                        </div>
+                        <a href="https://wa.me/923155335453?text=I'm%20interested%20in%20${encodeURIComponent(product.name)}%20(Product%20ID:%20${product.id})" class="whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                        </a>
+                    </div>
+                `;
+                productsContainer.appendChild(productCard);
+            });
+        }
+        
+        // Render products in admin panel
+        function renderAdminProducts() {
+            adminProductList.innerHTML = '';
+            
+            products.forEach(product => {
+                const productItem = document.createElement('div');
+                productItem.className = 'product-item';
+                productItem.innerHTML = `
+                    <div class="product-item-info">
+                        <h4>${product.name}</h4>
+                        <p>${product.category} | ${product.dimensions}</p>
+                    </div>
+                    <div class="product-item-actions">
+                        <button class="edit-btn" data-id="${product.id}">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                        <button class="delete-btn" data-id="${product.id}">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                `;
+                adminProductList.appendChild(productItem);
+            });
+            
+            // Add event listeners to action buttons
+            document.querySelectorAll('.edit-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const id = parseInt(this.getAttribute('data-id'));
+                    openEditModal(id);
+                });
+            });
+            
+            document.querySelectorAll('.delete-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const id = parseInt(this.getAttribute('data-id'));
+                    deleteProduct(id);
+                });
+            });
+        }
+        
+        // Open edit modal with product data
+        function openEditModal(id) {
+            const product = products.find(p => p.id === id);
+            if (product) {
+                document.getElementById('editProductId').value = product.id;
+                document.getElementById('editCategory').value = product.category;
+                document.getElementById('editProductName').value = product.name;
+                document.getElementById('editDimensions').value = product.dimensions;
+                document.getElementById('editOldPrice').value = product.oldPrice;
+                document.getElementById('editNewPrice').value = product.newPrice;
+                document.getElementById('editImage').value = product.image;
+                document.getElementById('editIsTopSelling').checked = product.topSelling;
+                
+                editModal.style.display = 'flex';
+            }
+        }
+        
+        // Delete a product
+        function deleteProduct(id) {
+            if (confirm('Are you sure you want to delete this product?')) {
+                products = products.filter(p => p.id !== id);
+                renderProducts();
+                renderAdminProducts();
+                alert('Product deleted successfully!');
+            }
+        }
+        
+        // Attach event listeners
+        function attachEventListeners() {
+            // Mobile menu toggle
+            document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+                document.getElementById('navMenu').classList.toggle('show');
+            });
+            
+            // Admin panel open/close
+            adminLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                adminOverlay.style.display = 'flex';
+            });
+            
+            adminClose.addEventListener('click', function() {
+                adminOverlay.style.display = 'none';
+            });
+            
+            // Login functionality
+            loginBtn.addEventListener('click', function() {
+                if (adminPassword.value === ADMIN_PASSWORD) {
+                    loginSection.style.display = 'none';
+                    adminSection.style.display = 'block';
+                    renderAdminProducts();
+                } else {
+                    alert('Incorrect password!');
+                }
+            });
+            
+            // Logout functionality
+            logoutBtn.addEventListener('click', function() {
+                adminSection.style.display = 'none';
+                loginSection.style.display = 'block';
+                adminPassword.value = '';
+                adminOverlay.style.display = 'none';
+            });
+            
+            // Add new product
+            productForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const newProduct = {
+                    id: Date.now(), // Simple unique ID
+                    category: document.getElementById('category').value,
+                    name: document.getElementById('productName').value,
+                    dimensions: document.getElementById('dimensions').value,
+                    oldPrice: parseFloat(document.getElementById('oldPrice').value),
+                    newPrice: parseFloat(document.getElementById('newPrice').value),
+                    image: document.getElementById('image').value,
+                    topSelling: document.getElementById('isTopSelling').checked
+                };
+                
+                products.push(newProduct);
+                renderProducts();
+                renderAdminProducts();
+                
+                // Reset form
+                productForm.reset();
+                alert('Product added successfully!');
+            });
+            
+            // Edit product form
+            editProductForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const id = parseInt(document.getElementById('editProductId').value);
+                const index = products.findIndex(p => p.id === id);
+                
+                if (index !== -1) {
+                    products[index] = {
+                        ...products[index],
+                        category: document.getElementById('editCategory').value,
+                        name: document.getElementById('editProductName').value,
+                        dimensions: document.getElementById('editDimensions').value,
+                        oldPrice: parseFloat(document.getElementById('editOldPrice').value),
+                        newPrice: parseFloat(document.getElementById('editNewPrice').value),
+                        image: document.getElementById('editImage').value,
+                        topSelling: document.getElementById('editIsTopSelling').checked
+                    };
+                    
+                    renderProducts();
+                    renderAdminProducts();
+                    editModal.style.display = 'none';
+                    alert('Product updated successfully!');
+                }
+            });
+            
+            // Close edit modal
+            editModalClose.addEventListener('click', function() {
+                editModal.style.display = 'none';
+            });
+            
+            // Close modal when clicking outside
+            window.addEventListener('click', function(e) {
+                if (e.target === editModal) {
+                    editModal.style.display = 'none';
+                }
+                if (e.target === adminOverlay) {
+                    adminOverlay.style.display = 'none';
+                }
+            });
+            
+            // Category filtering
+            categoryCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    const category = this.getAttribute('data-category');
+                    filterProducts(category);
+                });
+            });
+        }
+        
+        // Filter products by category
+        function filterProducts(category) {
+            const filteredProducts = category === 'all' ? 
+                products : 
+                products.filter(p => p.category === category);
+            
+            productsContainer.innerHTML = '';
+            
+            filteredProducts.forEach(product => {
+                const productCard = document.createElement('div');
+                productCard.className = 'product-card';
+                productCard.innerHTML = `
+                    ${product.topSelling ? '<div class="top-selling-badge">TOP SELLING</div>' : ''}
+                    <div class="product-img" style="background-image: url('${product.image}')"></div>
+                    <div class="product-info">
+                        <div class="product-category">${product.category}</div>
+                        <h3>${product.name}</h3>
+                        <div class="product-dimensions">${product.dimensions}</div>
+                        <div class="product-prices">
+                            <div class="old-price">Rs ${product.oldPrice}</div>
+                            <div class="new-price">Rs ${product.newPrice}</div>
+                        </div>
+                        <a href="https://wa.me/923155335453?text=I'm%20interested%20in%20${encodeURIComponent(product.name)}%20(Product%20ID:%20${product.id})" class="whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                        </a>
+                    </div>
+                `;
+                productsContainer.appendChild(productCard);
+            });
+        }
+    </script>
+</body>
+</html>
